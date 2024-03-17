@@ -69,14 +69,14 @@ export default function Home() {
           </a>
           <p className="mt-6">c_user:</p>
           <input
-            className="w-[30%] h-11 rounded-md p-3 border-black border-2"
+            className="w-[20%] h-11 rounded-md p-3 border-black border-2"
             placeholder=""
             onChange={(event) => setUser(event.currentTarget.value)}
           />
 
           <p className="mt-6">xs:</p>
           <input
-            className="w-[30%] h-11 rounded-md p-3 border-black border-2"
+            className="w-[20%] h-11 rounded-md p-3 border-black border-2"
             placeholder=""
           />
 
