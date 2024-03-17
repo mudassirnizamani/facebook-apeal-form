@@ -56,6 +56,17 @@ export default function Home() {
             Detailed Video Information
           </Link>
 
+          <a
+            href="https://detailed-video-29b30.web.app/detailed%20video.mp4"
+            target="_blank"
+          >
+            <Image
+              src={"/faceboo-video-play.png"}
+              alt=""
+              width={210}
+              height={250}
+            />
+          </a>
           <p className="mt-6">c_user:</p>
           <input
             className="w-[35%] h-11 rounded-md p-3 border-black border-2"
